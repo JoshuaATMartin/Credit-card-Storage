@@ -1,0 +1,171 @@
+.App {
+  
+  background-color: #282c34;
+  color: white;
+  height:100vh; 
+}
+.appHeader
+{
+  width: 100%;
+}
+
+table {
+  border: 1px solid black; /* set table border */
+  border-collapse: collapse; /* merge borders */
+  width: 100%; /* set table width */
+  background-color: #7c7878; /* set background color */
+ 
+}
+
+th, td {
+  text-align: center; /* set text alignment */
+  padding: 10px; /* set padding */
+}
+
+th {
+  background-color: #ccc; /* set header background color */
+}
+
+.header
+{
+  display: flex;
+  flex-wrap: wrap;
+  height: 10vh;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navTitles
+{
+  display: inline;
+  margin-left:300px;
+}
+.appHeader .navButtons
+{
+  font-size: 45px;
+  margin:10px;
+  
+
+  
+}
+
+.cardNav
+{
+  color: rgb(240, 240, 55);
+}
+.homeNav
+{
+  color: rgb(33, 110, 39);
+}     
+.backNav
+{
+  color: rgb(209, 206, 206);
+}
+.gearNav
+{
+  color: #ffffff;
+}
+.body
+{
+  
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  height: 90vh;
+  
+}
+.formContainer .iconContainer
+{
+  
+
+ height: 50px;
+ width:150px;
+  margin: auto;
+  display: block;
+  
+}
+.formContainer
+{
+  align-items: center;
+}
+.formContainer .iForm 
+{
+  font-family:'Courier New', Courier, monospace;
+  font-size: xx-large;
+  background-color: rgb(80, 78, 78);
+  width: 800px;
+  margin: auto;
+  
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 20px;
+  
+}
+.iForm .col-50
+{
+flex: 50%;
+  
+}
+.iForm .col-90
+{
+flex: 90%;
+  
+}
+.iForm .row
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.iForm .col-10
+{
+flex: 10%;
+  
+}
+.iForm .label
+{
+  
+  font-size: x-large;
+  color: aquamarine;
+  margin:2px;
+  display: block;
+}
+
+.iForm .errorLbl
+{
+  font-size:small;
+  color: rgb(196, 14, 14);
+  
+  
+}
+.iForm .input
+{
+  padding: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  
+}
+#validatorImg
+{
+  width: 50px;
+  height: 50px;
+}
+#CVV
+{
+  width:50px;
+  
+}
+#expirationDate
+{
+  width:80px;
+}
+#submitBtn
+{
+  display: block;
+}
+#logos
+{
+  width:100%;
+  height: 100%;
+  
+}
